@@ -1,0 +1,63 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+h1 {
+    color: brown;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div {
+    color: purple;
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: red;
+    background-color: white;
+    font-size: larger;
+    text-align: left;
+    padding: 1px;
+    border: 2px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.block,
+ul {
+    color: purple;
+    background-color: whitesmoke;
+    font-size: large;
+    text-align: center;
+    border: 3px;
+    border-style: dashed;
+    padding: 1em;
+    height: fit-content;
+    width: fit-content;
+    margin: -40px 30px 40px 10em;
+   
+}
+
+.block,
+ol {
+    color: red;
+    background-color: whitesmoke;
+    font-size: large;
+    text-align: left;
+    border: 2px;
+    padding: .5em;
+    height: fit-content;
+    width: fit-content;
+    
+}
